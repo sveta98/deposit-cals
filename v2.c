@@ -13,4 +13,10 @@ int main()
 		if (money<=100000) {
 			if(days>30 && days<=120) {
 				money=1.02*money;
-			}		
+			}
+			
+			if(days> 120 && days<=240){
+			money=1.06*money;
+			}
+			 
+					
