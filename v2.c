@@ -10,4 +10,7 @@ int main()
 		if (days>=0 && days <=30) {
 			money=0.9*money;
 		}
-			
+		if (money<=100000) {
+			if(days>30 && days<=120) {
+				money=1.02*money;
+			}		
