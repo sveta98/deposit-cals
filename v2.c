@@ -37,6 +37,11 @@ int main()
             money=1.15*money;
             }
           }
-    
- 
+    	printf("vashi dengi %d", money);
+    }	
+	else {
+	 printf("ERROR");
+	 }
+return 0;
+}	  
 					
