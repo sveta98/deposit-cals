@@ -1,0 +1,6 @@
+install: make 
+language: c
+script: bin/deposit_calc_test
+after_success: make clean
+after_failure: make clean
+
